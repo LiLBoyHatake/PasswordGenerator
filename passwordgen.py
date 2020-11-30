@@ -19,4 +19,4 @@ for p in range(pig):
     print(password)
 
 with open('file.txt', 'a') as myFile:
-    myFile.write(password)
+    myFile.write(password', ')
