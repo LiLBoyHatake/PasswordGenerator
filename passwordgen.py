@@ -18,5 +18,5 @@ for p in range(pig):
         password += random.choice(characters)
     print(password)
 
-with open('file.txt', 'w') as myFile:
+with open('file.txt', 'a') as myFile:
     myFile.write(password)
